@@ -1,0 +1,83 @@
+def hospital_expert_system():
+
+    print("Hospital Expert System")
+
+    print("Available symptoms:")
+
+    print("1. fever")
+
+    print("2. cough")
+
+    print("3. chest pain")
+
+    print("4. headache")
+
+    symptom = input("Enter your symptom: ")
+
+    print("You entered:", symptom)
+
+    symptom = symptom.lower()
+
+    if symptom == "fever":
+
+        print("Advice: Consult General Physician.")
+
+    elif symptom == "cough":
+
+        print("Advice: Visit Pulmonology Department.")
+
+    elif symptom == "chest pain":
+
+        print("Advice: Consult Cardiology Department immediately.")
+
+    elif symptom == "headache":
+
+        print("Advice: Visit Neurology Department.")
+
+    else:
+
+        print("Advice: Please consult a General Physician.")
+
+
+hospital_expert_system()def hospital_expert_system():
+
+    print("Hospital Expert System")
+
+    print("Available symptoms:")
+
+    print("1. fever")
+
+    print("2. cough")
+
+    print("3. chest pain")
+
+    print("4. headache")
+
+    symptom = input("Enter your symptom: ")
+
+    print("You entered:", symptom)
+
+    symptom = symptom.lower()
+
+    if symptom == "fever":
+
+        print("Advice: Consult General Physician.")
+
+    elif symptom == "cough":
+
+        print("Advice: Visit Pulmonology Department.")
+
+    elif symptom == "chest pain":
+
+        print("Advice: Consult Cardiology Department immediately.")
+
+    elif symptom == "headache":
+
+        print("Advice: Visit Neurology Department.")
+
+    else:
+
+        print("Advice: Please consult a General Physician.")
+
+
+hospital_expert_system()
